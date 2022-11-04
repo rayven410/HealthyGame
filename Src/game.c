@@ -7,6 +7,8 @@
 Object* fallingObjects = NULL;
 playerO* player = NULL;
 
+int timer;
+
 void game_Init(void)
 {
 	player = malloc(sizeof(playerO));
